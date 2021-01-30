@@ -1,0 +1,50 @@
+.movie-item {
+    font-family: 'Roboto';
+    font-size: 15.5px;
+    width: 325px;
+    background-color: #f7f7f7;
+    border: solid 1px #e7e7e7;
+}
+
+.movie-item__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px 10px;
+}
+
+.movie-item__title {
+    font-weight: bold;
+}
+
+.movie-item__duration, 
+.movie-item__score {
+    margin-top: 15px;
+}
+
+.movie-item__rotten_icon {
+    width: 20px;
+}
+
+.movie-item__poster-image {
+    width: 100%;
+}
+
+.movie-item__details-button {
+    position: relative;
+    display: block;
+    width: 66%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 25px;
+    border: solid 1px #ccc;
+    background: #a4a4a4;
+    color: #000;
+    text-decoration: none;
+    margin: -65px auto 25px;
+}
+
+.movie-item__excerpt {
+    padding: 25px 10px 40px;
+    margin: 0;
+}
